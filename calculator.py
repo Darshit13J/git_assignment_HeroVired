@@ -3,8 +3,7 @@ import math
 class Calculator:
 
     def add(self, a, b):
-        return a + b
-<<<<<<< HEAD
+        return a + 
 
 def subtract(self, a, b):
     return a - b
@@ -14,7 +13,7 @@ def multiply(self, a, b):
 
 def divide(self, a, b):
     return a / b
-=======
+
 
     def subtract(self, a, b):
         return a - b
@@ -27,18 +26,18 @@ def divide(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero.")
             return a / b
->>>>>>> dev
+
 
 # TODO: Implement the following function to calculate the square root of a number.
 
-<<<<<<< Updated upstream
+
 # def square_root(self, x):
 
 # return math.sqrt(x)
-=======
+
 def square_root(self, x):
     return math.sqrt(x)
->>>>>>> Stashed changes
+
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
@@ -52,7 +51,9 @@ num2 = 4
 
 print(f"{num1} + {num2} = {calculator.add(num1, num2)}")
 
-print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")
+print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") 
+
+print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")
 
 print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
