@@ -4,6 +4,22 @@ class Calculator:
 
     def add(self, a, b):
         return a + b
+<<<<<< feature/sqrt
+
+    def subtract(self, a, b):
+        return a - b
+
+=======
+
+def subtract(self, a, b):
+    return a - b
+
+def multiply(self, a, b):
+    return a * b
+
+def divide(self, a, b):
+    return a / b
+
 
     def subtract(self, a, b):
         return a - b
@@ -14,10 +30,12 @@ class Calculator:
     def divide(self, a, b):
         return a / b
 
+
 # TODO: Implement the following function to calculate the square root of a number.
 
     def square_root(self, x):
         return math.sqrt(x)
+# TODO: Implement the following function to calculate the square root of a number.
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
