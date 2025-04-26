@@ -39,7 +39,8 @@ if __name__ == "__main__":
 
 num1 = 16
 
-num2 = 4
+num2 = 1
+
 
 print(f"{num1} + {num2} = {calculator.add(num1, num2)}")
 
