@@ -31,3 +31,5 @@
 8. Back on the feature/rectangle-area branch retrive the stashed code perform commit.
 9. Create Pull request into dev branch for both the branch sequentially and reviewed by Swetabh.
 10. Merge into the Main branch.
+
+After the Due Date (27 Apr 2025), as per the instructions, change the visiblility of the Repository to Public
